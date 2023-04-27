@@ -1,0 +1,71 @@
+<script>
+
+    //this is a array
+    var ourArray = [8 , "Rodrigo"];
+    console.log(ourArray);
+
+
+//using nestled arrays
+    var nestledArray = [[1, "Johmny"] , ourArray];
+    console.log("Nestled Array");
+    console.log(nestledArray[0]);
+    console.log(nestledArray[1]);
+
+
+//editin array
+    var editionArray = [0 , 1 , 2];
+    editionArray[1] = 1111;
+    console.log("Editing Array");
+    console.log(editionArray);
+
+//appending array with push
+    var appendingArray = [0 , 1 , 2];
+    appendingArray.push(3);
+    appendingArray.push(4);
+    console.log("Appending Array");
+    console.log(appendingArray);
+    appendingArray.pop();
+    appendingArray.pop();
+    appendingArray.pop();
+    
+    console.log(appendingArray);
+
+//popping out last data from array with pop
+    var poppingArray = ["alpha", "bravo", "romeo"];
+    var poppedData = poppingArray.pop();
+    console.log("Popping Array");
+    console.log(poppedData);
+    console.log(poppingArray);
+
+//removing first data from array
+    var shifterArray = ["John","Silver","Antony"];
+    var shiftedData = shifterArray.shift();
+    console.log("Shifting Array");
+    console.log(shiftedData);
+    console.log(shifterArray);
+
+//appending array from the first data
+var fAppendingArray = [0 , 1 , 2];
+    fAppendingArray.unshift(-1);
+    console.log("Unshifted Array");
+    console.log(fAppendingArray);
+
+
+// using "for" for creating or iterating through array
+var autoArray = [];
+for (var i = 0 ; i<10 ; i++) {
+    autoArray.push(i+1);
+}
+console.log(autoArray);
+
+//concatenatin arrays
+var concatenatedArray = [1,2,3].concat(4,50);
+console.log(concatenatedArray);
+
+
+
+    
+
+
+
+</script>
